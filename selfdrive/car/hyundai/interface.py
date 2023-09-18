@@ -215,7 +215,7 @@ class CarInterface(CarInterfaceBase):
     elif candidate == CAR.KIA_K8_HEV_1ST_GEN:
       ret.mass = 1650. + STD_CARGO_KG
       ret.wheelbase = 2.895
-      ret.steerRadio = 14.4
+      ret.steerRatio = 14.4
 
     # Genesis
     elif candidate == CAR.GENESIS_GV60_EV_1ST_GEN:
