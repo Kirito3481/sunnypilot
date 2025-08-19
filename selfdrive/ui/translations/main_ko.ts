@@ -335,7 +335,7 @@ This only toggles the visibility of the controls; it does not toggle the actual 
     </message>
     <message>
         <source> Your device is pointed %1° %2 and %3° %4.</source>
-        <translation> 사용자의 장치는 %2 %1° 및 %4 %3° 의 방향으로 장착되어 있습니다.</translation>
+        <translation> 사용자의 기기는 %2 %1° 및 %4 %3° 의 방향으로 장착되어 있습니다.</translation>
     </message>
     <message>
         <source>down</source>
@@ -536,11 +536,11 @@ This is the time after which settings UI closes automatically if user is not int
     </message>
     <message>
         <source>⁍ Offroad: Device will be in Always Offroad mode after boot/wake-up.</source>
-        <translation>⁍ 오프로드: 부팅/절전 해제 후 장치가 항상 오프로드 모드로 유지됩니다.</translation>
+        <translation>⁍ 오프로드: 부팅/절전 해제 후 기기가 항상 오프로드 모드로 유지됩니다.</translation>
     </message>
     <message>
         <source>Controls state of the device after boot/sleep.</source>
-        <translation>부팅/절전 모드 후 장치의 상태를 제어합니다.</translation>
+        <translation>부팅/절전 모드 후 기기의 상태를 제어합니다.</translation>
     </message>
 </context>
 <context>
@@ -871,7 +871,7 @@ Firehose 모드를 사용하면 훈련 데이터 업로드를 극대화하여 op
     </message>
     <message>
         <source>Device will automatically shutdown after set time once the engine is turned off.&lt;br/&gt;(30h is the default)</source>
-        <translation>차량 시동이 꺼지면 설정된 시간이 지난 후 장치가 자동으로 꺼집니다.&lt;br/&gt;(기본값은 30시간입니다)</translation>
+        <translation>차량 시동이 꺼지면 설정된 시간이 지난 후 기기가 자동으로 꺼집니다.&lt;br/&gt;(기본값은 30시간입니다)</translation>
     </message>
     <message>
         <source>Always On</source>
@@ -1656,10 +1656,6 @@ Warning: You are on a metered connection!</source>
         <source>Developer</source>
         <translation>개발자</translation>
     </message>
-    <message>
-        <source>sunnypilot</source>
-        <translation>sunnypilot</translation>
-    </message>
 </context>
 <context>
     <name>SetupWidget</name>
@@ -1974,8 +1970,7 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>Pair your GitHub account to grant your device sponsor benefits, including API access on sunnylink.</source>
-        <translatorcomment>GitHub 계정을 페어링하여 sunnylink의 API 접근을 포함한 후원자 혜택을 기기에 부여하세요.</translatorcomment>
-        <translation></translation>
+        <translation>GitHub 계정을 페어링하여 sunnylink의 API 접근을 포함한 후원자 혜택을 기기에 부여하세요.</translation>
     </message>
     <message>
         <source>N/A</source>
