@@ -1,3 +1,30 @@
+sunnypilot Version 2025.003.000 (20xx-xx-xx)
+========================
+
+sunnypilot Version 2025.002.000 (2025-11-06)
+========================
+* What's Changed (sunnypilot/sunnypilot)
+  * models: bump model json to v8 by @Discountchubbs
+  * Bug: Model UI Crash Fix by @nayan8teen
+  * controlsd: add `CP_SP` to `get_pid_accel_limits` by @THERoenPR
+  * sunnylink: update uploader button logic to support novice tier and above by @devtekve
+  * Tesla: Coop Steering by @AmyJeanes
+  * ui: update discord references and add forum widget by @devtekve
+  * ui: Fix spacing in sunnylink panel by @devtekve
+  * docs: Update README installation branches and discord links by @mpurnell1 in
+  * stats: sunnylink integration by @devtekve
+  * bug: Fix initial registration for sunnylink by @devtekve
+* What's Changed (sunnypilot/opendbc)
+  * Honda: add brake hold messages for Clarity by @mvl-boston
+  * interface: add `CP_SP` to `get_pid_accel_limits` method signature by @roenthomas
+  * Honda: use fixed accel min/max constants for Gas Interceptor by @roenthomas
+  * Tesla: Coop Steering by @AmyJeanes
+* New Contributors (sunnypilot/sunnypilot)
+  * @THERoenPR made their first contribution in "controlsd: add `CP_SP` to `get_pid_accel_limits`"
+  * @AmyJeanes made their first contribution in "Tesla: Coop Steering"
+  * @mpurnell1 made their first contribution in "docs: Update README installation branches and discord links"
+* Full Changelog: https://github.com/sunnypilot/sunnypilot/compare/v2025.001.000...v2025.002.000
+
 sunnypilot Version 2025.001.000 (2025-10-25)
 ========================
 * 🛠️ Major rewrite
@@ -22,7 +49,7 @@ sunnypilot Version 2025.001.000 (2025-10-25)
   * Intelligent Cruise Button Management (ICBM)
     * System designed to manage the vehicle’s speed by sending cruise control button commands to the car’s ECU.
   * Smart Cruise Control Map & Vision (SCC-M / SCC-V)
-    * When using any form of long control (openpilot longitudinal or ICBM) it will control the speed at which you enter and perform a turn by leveraging map data (SCC-M) and/or by leveraging what the model sees about the curve ahead (SCC-V)
+    * When using any form of long control (sunnypilot longitudinal control or ICBM) it will control the speed at which you enter and perform a turn by leveraging map data (SCC-M) and/or by leveraging what the model sees about the curve ahead (SCC-V)
   * Vehicle Selector
     * If your vehicle isn’t fingerprinted automatically, you can still use the vehicle selector to get it working
   * sunnylink Integration
@@ -134,6 +161,7 @@ sunnypilot Version 2025.001.000 (2025-10-25)
   * @michael-was-taken made their first contribution in "Reorder README tables: show -new branches first (#1191)"
   * @dzid26 made their first contribution in "params: Fix loading delay on startup (#1297)"
   * @HazZelnutz made their first contribution in "Visuals: Turn signals on screen when blinker is used (#1291)"
+  * @sirmuskrat made their first contribution in "ui: openpilot Longitudinal Control → sunnypilot Longitudinal Control (#1422)"
 * New Contributors (sunnypilot/opendbc)
   * @chrispypatt made their first contribution in "Toyota: SecOC Longitudinal Control (sunnypilot/opendbc#93)"
   * @Discountchubbs made their first contribution in "Hyundai: EPS FW For 2022 KIA_NIRO_EV SCC (sunnypilot/opendbc#118)"
