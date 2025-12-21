@@ -25,12 +25,12 @@ msgstr " 스티어링 토크 응답 보정이 완료되었습니다."
 #: selfdrive/ui/layouts/settings/device.py:158
 #, python-format
 msgid " Steering torque response calibration is {}% complete."
-msgstr " 스티어링 토크 응답 보정이 {}% 완료되었습니다."
+msgstr " 스티어링 토크 응답 보정이 {}% 진행되었습니다."
 
 #: selfdrive/ui/layouts/settings/device.py:133
 #, python-format
 msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
-msgstr " 장치는 {:.1f}° {} 및 {:.1f}° {} 방향을 가리키고 있습니다."
+msgstr " 장치가 {} {:.1f}°, {} {:.1f}° 향해 있습니다."
 
 #: selfdrive/ui/layouts/sidebar.py:43
 msgid "--"
@@ -39,12 +39,12 @@ msgstr "--"
 #: selfdrive/ui/widgets/prime.py:47
 #, python-format
 msgid "1 year of drive storage"
-msgstr "주행 데이터 1년 보관"
+msgstr "1년 주행 기록 저장"
 
 #: selfdrive/ui/widgets/prime.py:47
 #, python-format
 msgid "24/7 LTE connectivity"
-msgstr "연중무휴 LTE 연결"
+msgstr "상시 LTE 연결"
 
 #: selfdrive/ui/layouts/sidebar.py:46
 msgid "2G"
@@ -68,11 +68,12 @@ msgid ""
 "control alpha. Changing this setting will restart openpilot if the car is "
 "powered on."
 msgstr ""
-"<b>경고: 이 차량에서 openpilot의 롱컨 제어는 알파 버전이며 자동 긴급 제동"
-"(AEB)을 비활성화합니다.</b><br><br>이 차량에서는 openpilot 롱컨 제어 대신 "
-"차량 내장 ACC가 기본으로 사용됩니다. openpilot 롱컨 제어로 전환하려면 이 설"
-"정을 켜세요. 롱컨 제어 알파를 켤 때는 실험 모드 사용을 권장합니다. 차량 전"
-"원이 켜져 있는 경우 이 설정을 변경하면 openpilot이 재시작됩니다."
+"<b>경고: 이 차량의 openpilot 가감속 제어는 알파 버전이며, 자동 긴급 제동"
+"(AEB) 기능이 비활성화됩니다.</b><br><br>이 차량의 openpilot은 기본적으로 "
+"openpilot의 가감속 제어 대신 차량의 순정 ACC를 사용합니다. openpilot 가감속 "
+"제어로 전환하려면 이 옵션을 활성화하십시오. 가감속 제어 알파 버전을 활성화할 때는 "
+"실험 모드를 함께 활성화하는 것을 권장합니다. 차량의 시동이 켜져 있는 상태에서 이 "
+"설정을 변경하면 openpilot이 다시 시작됩니다."
 
 #: selfdrive/ui/layouts/settings/device.py:148
 #, python-format
@@ -82,7 +83,7 @@ msgstr "<br><br>스티어링 지연 보정이 완료되었습니다."
 #: selfdrive/ui/layouts/settings/device.py:146
 #, python-format
 msgid "<br><br>Steering lag calibration is {}% complete."
-msgstr "<br><br>스티어링 지연 보정이 {}% 완료되었습니다."
+msgstr "<br><br>스티어링 지연 보정이 {}% 진행되었습니다."
 
 #: selfdrive/ui/layouts/settings/firehose.py:138
 #, python-format
@@ -94,7 +95,7 @@ msgid ""
 "ADB (Android Debug Bridge) allows connecting to your device over USB or over "
 "the network. See https://docs.comma.ai/how-to/connect-to-comma for more info."
 msgstr ""
-"ADB(Android Debug Bridge)를 사용하면 USB 또는 네트워크로 장치에 연결할 수 있"
+"ADB (Android Debug Bridge)를 사용하면 USB 또는 네트워크로 장치에 연결할 수 있"
 "습니다. 자세한 내용은 https://docs.comma.ai/how-to/connect-to-comma 를 참고하"
 "세요."
 
@@ -1004,7 +1005,7 @@ msgstr "기본값"
 #: selfdrive/ui/layouts/settings/device.py:133
 #, python-format
 msgid "down"
-msgstr "아래"
+msgstr "아래로"
 
 #: selfdrive/ui/layouts/settings/software.py:106
 #, python-format
@@ -1029,7 +1030,7 @@ msgstr "자동 구성을 사용하려면 비워 두세요"
 #: selfdrive/ui/layouts/settings/device.py:134
 #, python-format
 msgid "left"
-msgstr "왼쪽"
+msgstr "왼쪽으로"
 
 #: system/ui/widgets/network.py:142
 #, python-format
@@ -1122,7 +1123,7 @@ msgstr "openpilot은 장치를 좌우 4°, 위쪽 5°, 아래쪽 9° 이내로 �
 #: selfdrive/ui/layouts/settings/device.py:134
 #, python-format
 msgid "right"
-msgstr "오른쪽"
+msgstr "오른쪽으로"
 
 #: system/ui/widgets/network.py:142
 #, python-format
@@ -1132,7 +1133,7 @@ msgstr "비종량제"
 #: selfdrive/ui/layouts/settings/device.py:133
 #, python-format
 msgid "up"
-msgstr "위"
+msgstr "위로"
 
 #: selfdrive/ui/layouts/settings/software.py:117
 #, python-format
