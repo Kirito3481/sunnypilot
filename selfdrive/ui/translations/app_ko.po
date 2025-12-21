@@ -115,7 +115,7 @@ msgstr "공격적"
 #: openpilot/selfdrive/ui/layouts/onboarding.py:117
 #, python-format
 msgid "Agree"
-msgstr "동의"
+msgstr "동의함"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:74
 #, python-format
@@ -216,7 +216,7 @@ msgstr "언어 변경"
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:129
 #, python-format
 msgid "Changing this setting will restart sunnypilot if the car is powered on."
-msgstr ""
+msgstr "차량의 시동이 켜져 있는 상태에서 이 설정을 변경하면 sunnypilot이 다시 시작됩니다."
 
 #: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:102
 #, python-format
@@ -246,12 +246,12 @@ msgstr "다운로드"
 #: openpilot/selfdrive/ui/layouts/onboarding.py:116
 #, python-format
 msgid "Decline"
-msgstr "거부"
+msgstr "거절"
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py:149
 #, python-format
 msgid "Decline, uninstall sunnypilot"
-msgstr ""
+msgstr "거절, sunnypilot 제거"
 
 #: openpilot/selfdrive/ui/layouts/settings/settings.py:64
 msgid "Developer"
@@ -269,17 +269,17 @@ msgstr "가속 페달로 해제"
 #: openpilot/selfdrive/ui/layouts/settings/device.py:187
 #, python-format
 msgid "Disengage to Power Off"
-msgstr "해제 후 전원 끄기"
+msgstr "전원 종료를 위해 주행 보조를 해제하세요"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py:175
 #, python-format
 msgid "Disengage to Reboot"
-msgstr "해제 후 재시작"
+msgstr "재부팅을 위해 주행 보조를 해제하세요"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py:106
 #, python-format
 msgid "Disengage to Reset Calibration"
-msgstr "해제 후 캘리브레이션 재설정"
+msgstr "재설정을 위해 주행 보조를 해제하세요"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:36
 msgid "Display speed in km/h instead of mph."
@@ -326,38 +326,38 @@ msgstr "실험 모드 켜짐"
 #: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:68
 #, python-format
 msgid "Early Access: Become a sunnypilot Sponsor"
-msgstr ""
+msgstr "얼리 액세스: sunnypilot 후원자가 되어보세요"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:184
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:232
 #, python-format
 msgid "Enable"
-msgstr "사용"
+msgstr "활성화"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:43
 #, python-format
 msgid "Enable ADB"
-msgstr "ADB 사용"
+msgstr "ADB 활성화"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:68
 #, python-format
 msgid "Enable Lane Departure Warnings"
-msgstr "차선 이탈 경고 사용"
+msgstr "차로 이탈 경고 활성화"
 
 #: system/ui/widgets/network.py:135
 #, python-format
 msgid "Enable Roaming"
-msgstr "로밍 사용"
+msgstr "로밍 활성화"
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:52
 #, python-format
 msgid "Enable SSH"
-msgstr "SSH 사용"
+msgstr "SSH 활성화"
 
 #: system/ui/widgets/network.py:126
 #, python-format
 msgid "Enable Tethering"
-msgstr "테더링 사용"
+msgstr "테더링 활성화"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:34
 msgid "Enable driver monitoring even when sunnypilot is not engaged."
@@ -366,7 +366,7 @@ msgstr ""
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:50
 #, python-format
 msgid "Enable sunnypilot"
-msgstr ""
+msgstr "sunnypilot 활성화"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:193
 #, python-format
@@ -548,6 +548,8 @@ msgid ""
 "Join our Community Forum at https://community.sunnypilot.ai and reach out to "
 "a moderator if you have issues"
 msgstr ""
+"커뮤니티 포럼(https://community.sunnypilot.ai)에 가입하시고, 문제가 발생할 경우 "
+"중재자에게 문의해 주세요."
 
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:60
 #, python-format
@@ -556,7 +558,7 @@ msgstr "조이스틱 디버그 모드"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py:29
 msgid "LOADING"
-msgstr "로딩 중"
+msgstr "불러오는 중"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py:48
 msgid "LTE"
@@ -565,7 +567,7 @@ msgstr "LTE"
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:68
 #, python-format
 msgid "Longitudinal Maneuver Mode"
-msgstr "롱컨 기동 모드"
+msgstr "가감속 기동 모드"
 
 #: openpilot/selfdrive/ui/onroad/hud_renderer.py:148
 #, python-format
@@ -576,7 +578,7 @@ msgstr "최대"
 #, python-format
 msgid ""
 "Maximize your training data uploads to improve openpilot's driving models."
-msgstr "학습 데이터 업로드를 최대화하여 openpilot의 주행 모델을 개선하세요."
+msgstr "openpilot의 주행 모델 개선을 위해 학습 데이터 업로드를 최대화합니다."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py:62
 #: openpilot/selfdrive/ui/layouts/settings/device.py:63
@@ -632,7 +634,7 @@ msgstr "열기"
 #: openpilot/selfdrive/ui/layouts/settings/device.py:51
 #, python-format
 msgid "PAIR"
-msgstr "페어링"
+msgstr "연결"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py:142
 msgid "PANDA"
@@ -651,22 +653,22 @@ msgstr "프라임 기능:"
 #: openpilot/selfdrive/ui/layouts/settings/device.py:51
 #, python-format
 msgid "Pair Device"
-msgstr "장치 페어링"
+msgstr "기기 연결"
 
 #: openpilot/selfdrive/ui/widgets/setup.py:19
 #, python-format
 msgid "Pair device"
-msgstr "장치 페어링"
+msgstr "기기 연결"
 
 #: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:68
 #, python-format
 msgid "Pair your GitHub account"
-msgstr ""
+msgstr "GitHub 계정 연결하기"
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py:92
 #, python-format
 msgid "Pair your device to your comma account"
-msgstr "장치를 귀하의 comma 계정에 페어링하세요"
+msgstr "기기를 comma 계정과 연동하기"
 
 #: openpilot/selfdrive/ui/widgets/setup.py:48
 #: openpilot/selfdrive/ui/layouts/settings/device.py:27
@@ -675,13 +677,13 @@ msgid ""
 "Pair your device with comma connect (connect.comma.ai) and claim your comma "
 "prime offer."
 msgstr ""
-"장치를 comma connect(connect.comma.ai)와 페어링하고 comma 프라임 혜택을 받으"
+"기기를 comma connect(connect.comma.ai)에 연결하고 comma 프라임 혜택을 받으"
 "세요."
 
 #: openpilot/selfdrive/ui/widgets/setup.py:91
 #, python-format
 msgid "Please connect to Wi-Fi to complete initial pairing"
-msgstr "초기 페어링을 완료하려면 Wi‑Fi에 연결하세요"
+msgstr "초기 연결을 완료하려면 Wi-Fi에 연결해 주세요"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py:58
 #: openpilot/selfdrive/ui/layouts/settings/device.py:190
@@ -831,12 +833,12 @@ msgstr "SSH 키"
 #: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:94
 #, python-format
 msgid "Scan the QR code to login to your GitHub account"
-msgstr ""
+msgstr "GitHub 계정에 로그인하려면 QR 코드를 스캔하세요"
 
 #: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:101
 #, python-format
 msgid "Scan the QR code to visit sunnyhaibin's GitHub Sponsors page"
-msgstr ""
+msgstr "sunnyhaibin의 GitHub 스폰서 페이지를 방문하려면 QR 코드를 스캔하세요"
 
 #: system/ui/widgets/network.py:316
 #, python-format
@@ -846,7 +848,7 @@ msgstr "Wi‑Fi 네트워크 검색 중..."
 #: system/ui/sunnypilot/widgets/tree_dialog.py:90
 #, python-format
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: system/ui/widgets/option_dialog.py:36
 #, python-format
@@ -925,7 +927,7 @@ msgstr "토글"
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:83
 #, python-format
 msgid "UI Debug Mode"
-msgstr ""
+msgstr "UI 디버그 모드"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:82
 #, python-format
@@ -945,7 +947,7 @@ msgstr "제거"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py:117
 msgid "Unknown"
-msgstr "알수없음"
+msgstr "알 수 없음"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:58
 #, python-format
@@ -975,6 +977,8 @@ msgid ""
 "Use the sunnypilot system for adaptive cruise control and lane keep driver "
 "assistance. Your attention is required at all times to use this feature."
 msgstr ""
+"sunnypilot 시스템을 어댑티브 크루즈 컨트롤 및 차로 유지 보조용으로 "
+"사용하십시오. 이 기능을 사용하는 동안에는 항상 운전자의 주의가 필요합니다."
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py:72
 #: openpilot/selfdrive/ui/layouts/sidebar.py:144
@@ -1004,11 +1008,11 @@ msgstr ""
 #: openpilot/selfdrive/ui/layouts/onboarding.py:112
 #, python-format
 msgid "Welcome to sunnypilot"
-msgstr ""
+msgstr "sunnypilot에 오신 것을 환영합니다"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:24
 msgid "When enabled, pressing the accelerator pedal will disengage sunnypilot."
-msgstr ""
+msgstr "활성화 시, 가속 페달을 밟으면 sunnypilot 주행 보조가 해제됩니다."
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py:44
 msgid "Wi-Fi"
@@ -1027,7 +1031,7 @@ msgstr "비밀번호가 올바르지 않습니다"
 #: openpilot/selfdrive/ui/layouts/onboarding.py:146
 #, python-format
 msgid "You must accept the Terms and Conditions in order to use sunnypilot."
-msgstr ""
+msgstr "sunnypilot을 사용하려면 이용 약관에 동의해야 합니다."
 
 #: openpilot/selfdrive/ui/layouts/onboarding.py:113
 #, python-format
@@ -1035,6 +1039,8 @@ msgid ""
 "You must accept the Terms and Conditions to use sunnypilot. Read the latest "
 "terms at https://comma.ai/terms before continuing."
 msgstr ""
+"sunnypilot을 사용하려면 이용 약관에 동의해야 합니다. 계속하기 전에 "
+"https://comma.ai/terms 에서 최신 약관을 읽어보시기 바랍니다."
 
 #: openpilot/selfdrive/ui/onroad/driver_camera_dialog.py:38
 #, python-format
@@ -1044,7 +1050,7 @@ msgstr "카메라 시작 중"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:22
 #, python-format
 msgid "checking..."
-msgstr ""
+msgstr "확인 중..."
 
 #: openpilot/selfdrive/ui/widgets/prime.py:63
 #, python-format
@@ -1064,7 +1070,7 @@ msgstr "아래로"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:23
 #, python-format
 msgid "downloading..."
-msgstr ""
+msgstr "다운로드 중..."
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:118
 #, python-format
@@ -1074,7 +1080,7 @@ msgstr "업데이트 확인 실패"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:24
 #, python-format
 msgid "finalizing update..."
-msgstr ""
+msgstr "업데이트 마무리 중..."
 
 #: system/ui/widgets/network.py:243 system/ui/widgets/network.py:320
 #, python-format
@@ -1124,12 +1130,12 @@ msgstr "오른쪽으로"
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:75
 #, python-format
 msgid "sunnypilot Longitudinal Control (Alpha)"
-msgstr ""
+msgstr "sunnypilot 가감속 제어 (알파)"
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py:51
 #, python-format
 msgid "sunnypilot Unavailable"
-msgstr ""
+msgstr "sunnypilot 사용 불가"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:162
 #, python-format
@@ -1153,6 +1159,8 @@ msgid ""
 "sunnypilot is continuously calibrating, resetting is rarely required. "
 "Resetting calibration will restart sunnypilot if the car is powered on."
 msgstr ""
+"sunnypilot은 지속적으로 보정을 수행하므로 재설정이 거의 필요하지 않습니다. "
+"주행 중에 보정을 재설정하면 sunnypilot 시스템이 재시작됩니다."
 
 #: openpilot/selfdrive/ui/layouts/settings/firehose.py:12
 msgid ""
@@ -1162,17 +1170,24 @@ msgid ""
 "openpilot's driving models. More data means bigger models, which means "
 "better Experimental Mode."
 msgstr ""
+"sunnypilot은 여러분과 같은 실제 운전자의 주행 습관을 관찰하며 운전 방법을 학습합니다.\n"
+"\n"
+"파이어호스 모드를 사용하면 학습 데이터 업로드를 최대화하여 "
+"openpilot의 주행 모델을 개선할 수 있습니다. 더 많은 데이터는 더 거대한 모델을 의미하며, 이는 "
+"곧 더 뛰어난 실험 모드로 이어집니다."
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:187
 #, python-format
 msgid "sunnypilot longitudinal control may come in a future update."
-msgstr ""
+msgstr "sunnypilot 가감속 제어 기능은 향후 업데이트를 통해 제공될 예정입니다."
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py:29
 msgid ""
 "sunnypilot requires the device to be mounted within 4° left or right and "
 "within 5° up or 9° down."
 msgstr ""
+"sunnypilot을 사용하려면 기기를 좌우 4° 이내, "
+"그리고 상향 5° 또는 하향 9° 이내의 오차 범위로 장착해야 합니다."
 
 #: system/ui/widgets/network.py:148
 #, python-format
