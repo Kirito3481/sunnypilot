@@ -9,7 +9,7 @@ import pyray as rl
 from cereal import log
 from openpilot.selfdrive.ui import UI_BORDER_SIZE
 from openpilot.selfdrive.ui.ui_state import ui_state
-from openpilot.selfdrive.ui.sunnypilot.onroad.developer_ui import DeveloperUiRenderer
+from openpilot.selfdrive.ui.sunnypilot.onroad.developer_ui import DeveloperUiState
 from openpilot.system.ui.lib.application import gui_app, FontWeight, FONT_SCALE
 from openpilot.system.ui.lib.text_measure import measure_text_cached
 
@@ -77,7 +77,7 @@ class CircularAlertsRenderer:
       return
 
     e2e_alert_size = 250
-    dev_ui_width_adjustment = 180 if ui_state.developer_ui in (DeveloperUiRenderer.DEV_UI_RIGHT, DeveloperUiRenderer.DEV_UI_BOTH) else 100
+    dev_ui_width_adjustment = 180 if ui_state.developer_ui in (DeveloperUiState.RIGHT, DeveloperUiState.BOTH) else 100
 
     x = rect.x + rect.width - e2e_alert_size - dev_ui_width_adjustment - (UI_BORDER_SIZE * 3)
     y = rect.y + rect.height / 2 + 20
@@ -101,9 +101,9 @@ class CircularAlertsRenderer:
 
     # Draw Image
     if self._alert_img and self._e2e_alert_display_timer > 0:
-      img_x = int(center.x - self._alert_img.width / 2)
-      img_y = int(center.y - self._alert_img.height / 2)
-      rl.draw_texture(self._alert_img, img_x, img_y, rl.WHITE)
+      img_x = center.x - self._alert_img.width / 2
+      img_y = center.y - self._alert_img.height / 2
+      rl.draw_texture_ex(self._alert_img, rl.Vector2(img_x, img_y), 0.0, 1.0, rl.WHITE)
 
     # Draw Text
     txt_color = rl.Color(255, 255, 255, 255) if is_pulsing else rl.Color(0, 255, 0, 190)

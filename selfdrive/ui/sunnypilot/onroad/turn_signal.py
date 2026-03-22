@@ -34,8 +34,8 @@ class TurnSignalWidget(Widget):
     self._turn_signal_timer = 0.0
     self._turn_signal_alpha_filter = FirstOrderFilter(0.0, 0.3, 1 / gui_app.target_fps)
 
-    self._signal_texture = gui_app.texture(f'icons_mici/onroad/turn_signal_{direction}.png', 120, 109)
-    self._blind_spot_texture = gui_app.texture(f'icons_mici/onroad/blind_spot_{direction}.png', 120, 109)
+    self._signal_texture = gui_app.texture('icons_mici/onroad/turn_signal_left.png', 120, 109, flip_x=(direction == IconSide.right))
+    self._blind_spot_texture = gui_app.texture('icons_mici/onroad/blind_spot_left.png', 120, 109, flip_x=(direction == IconSide.right))
     self._texture = self._signal_texture
 
   def _render(self, _):
@@ -55,10 +55,10 @@ class TurnSignalWidget(Widget):
     self._texture = self._blind_spot_texture if self._type == 'blind_spot' else self._signal_texture
 
     if self._texture:
-      pos_x = int(self._rect.x + (self._rect.width - self._texture.width) / 2)
-      pos_y = int(self._rect.y + (self._rect.height - self._texture.height) / 2)
+      pos_x = self._rect.x + (self._rect.width - self._texture.width) / 2
+      pos_y = self._rect.y + (self._rect.height - self._texture.height) / 2
       color = rl.Color(255, 255, 255, icon_alpha)
-      rl.draw_texture(self._texture, pos_x, pos_y, color)
+      rl.draw_texture_ex(self._texture, rl.Vector2(pos_x, pos_y), 0.0, 1.0, color)
 
   def activate(self, _type: str = 'signal'):
     if not self._active or self._type != _type:

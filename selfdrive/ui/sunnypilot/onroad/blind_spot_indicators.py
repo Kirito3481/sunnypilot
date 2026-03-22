@@ -14,7 +14,7 @@ from openpilot.common.filter_simple import FirstOrderFilter
 class BlindSpotIndicators:
   def __init__(self):
     self._txt_blind_spot_left: rl.Texture = gui_app.texture('icons_mici/onroad/blind_spot_left.png', 108, 128)
-    self._txt_blind_spot_right: rl.Texture = gui_app.texture('icons_mici/onroad/blind_spot_right.png', 108, 128)
+    self._txt_blind_spot_right: rl.Texture = gui_app.texture('icons_mici/onroad/blind_spot_left.png', 108, 128, flip_x=True)
 
     self._blind_spot_left_alpha_filter = FirstOrderFilter(0, 0.15, 1 / gui_app.target_fps)
     self._blind_spot_right_alpha_filter = FirstOrderFilter(0, 0.15, 1 / gui_app.target_fps)
@@ -28,7 +28,7 @@ class BlindSpotIndicators:
 
   @property
   def detected(self) -> bool:
-    return self._blind_spot_left_alpha_filter.x > 0.01 or self._blind_spot_right_alpha_filter.x > 0.01
+    return ui_state.blindspot and (self._blind_spot_left_alpha_filter.x > 0.01 or self._blind_spot_right_alpha_filter.x > 0.01)
 
   def render(self, rect: rl.Rectangle) -> None:
     if not ui_state.blindspot:
@@ -42,11 +42,11 @@ class BlindSpotIndicators:
       pos_y = int(rect.y + BLIND_SPOT_Y_OFFSET)
       alpha = int(255 * self._blind_spot_left_alpha_filter.x)
       color = rl.Color(255, 255, 255, alpha)
-      rl.draw_texture(self._txt_blind_spot_left, pos_x, pos_y, color)
+      rl.draw_texture_ex(self._txt_blind_spot_left, rl.Vector2(pos_x, pos_y), 0.0, 1.0, color)
 
     if self._blind_spot_right_alpha_filter.x > 0.01:
       pos_x = int(rect.x + rect.width - BLIND_SPOT_MARGIN_X - self._txt_blind_spot_right.width)
       pos_y = int(rect.y + BLIND_SPOT_Y_OFFSET)
       alpha = int(255 * self._blind_spot_right_alpha_filter.x)
       color = rl.Color(255, 255, 255, alpha)
-      rl.draw_texture(self._txt_blind_spot_right, pos_x, pos_y, color)
+      rl.draw_texture_ex(self._txt_blind_spot_right, rl.Vector2(pos_x, pos_y), 0.0, 1.0, color)

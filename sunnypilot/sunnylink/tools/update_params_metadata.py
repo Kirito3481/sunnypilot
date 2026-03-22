@@ -10,6 +10,7 @@ import os
 
 from openpilot.common.basedir import BASEDIR
 from openpilot.common.params import Params
+from openpilot.sunnypilot.system.params_migration import ONROAD_BRIGHTNESS_TIMER_VALUES
 
 METADATA_PATH = os.path.join(os.path.dirname(__file__), "../params_metadata.json")
 TORQUE_VERSIONS_JSON = os.path.join(BASEDIR, "sunnypilot", "selfdrive", "controls", "lib", "latcontrol_torque_versions.json")
@@ -53,8 +54,54 @@ def main():
 
   print(f"Updated {METADATA_PATH}")
 
+  # update onroad screen brightness params
+  update_onroad_brightness_param()
+
+  # update onroad screen brightness timer params
+  update_onroad_brightness_timer_param()
+
   # update torque versions param
   update_torque_versions_param()
+
+
+def update_onroad_brightness_param():
+  try:
+    with open(METADATA_PATH) as f:
+      params_metadata = json.load(f)
+    if "OnroadScreenOffBrightness" in params_metadata:
+      options = [
+        {"value": 0, "label": "Auto (Default)"},
+        {"value": 1, "label": "Auto (Dark)"},
+        {"value": 2, "label": "Screen Off"},
+      ]
+      for i in range(3, 23):
+        options.append({"value": i, "label": f"{(i - 2) * 5} %"})
+      params_metadata["OnroadScreenOffBrightness"]["options"] = options
+      with open(METADATA_PATH, 'w') as f:
+        json.dump(params_metadata, f, indent=2)
+        f.write('\n')
+      print(f"Updated OnroadScreenOffBrightness options in params_metadata.json with {len(options)} options.")
+  except Exception as e:
+    print(f"Failed to update OnroadScreenOffBrightness versions in params_metadata.json: {e}")
+
+
+def update_onroad_brightness_timer_param():
+  try:
+    with open(METADATA_PATH) as f:
+      params_metadata = json.load(f)
+    if "OnroadScreenOffTimer" in params_metadata:
+      options = []
+      for _index, seconds in sorted(ONROAD_BRIGHTNESS_TIMER_VALUES.items()):
+        label = f"{seconds}s" if seconds < 60 else f"{seconds // 60}m"
+        options.append({"value": seconds, "label": label})
+      params_metadata["OnroadScreenOffTimer"]["options"] = options
+      with open(METADATA_PATH, 'w') as f:
+        json.dump(params_metadata, f, indent=2)
+        f.write('\n')
+      print(f"Updated OnroadScreenOffTimer options in params_metadata.json with {len(options)} options.")
+  except Exception as e:
+    print(f"Failed to update OnroadScreenOffTimer options in params_metadata.json: {e}")
+
 
 def update_torque_versions_param():
   with open(TORQUE_VERSIONS_JSON) as f:
@@ -80,6 +127,7 @@ def update_torque_versions_param():
 
   except Exception as e:
     print(f"Failed to update TorqueControlTune versions in params_metadata.json: {e}")
+
 
 if __name__ == "__main__":
   main()
