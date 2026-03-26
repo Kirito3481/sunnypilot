@@ -343,7 +343,7 @@ msgstr ""
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:50
 #, python-format
 msgid "Enable sunnypilot"
-msgstr ""
+msgstr "sunnypilot 사용"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:194
 #, python-format
@@ -374,7 +374,7 @@ msgstr "비밀번호 입력"
 #: system/ui/sunnypilot/widgets/tree_dialog.py:107
 #, python-format
 msgid "Enter search query"
-msgstr ""
+msgstr "검색어 입력"
 
 #: openpilot/selfdrive/ui/widgets/ssh_key.py:129
 #, python-format
@@ -747,7 +747,7 @@ msgstr "Wi‑Fi 네트워크 검색 중..."
 #: system/ui/sunnypilot/widgets/tree_dialog.py:98
 #, python-format
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: system/ui/widgets/option_dialog.py:37
 #, python-format
@@ -818,7 +818,7 @@ msgstr "토글"
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:83
 #, python-format
 msgid "UI Debug Mode"
-msgstr ""
+msgstr "UI 디버그 모드"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:81
 #, python-format
@@ -838,7 +838,7 @@ msgstr "제거"
 
 #: openpilot/selfdrive/ui/layouts/sidebar.py:121
 msgid "Unknown"
-msgstr "알수없음"
+msgstr "알 수 없음"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:58
 #, python-format
@@ -877,7 +877,7 @@ msgstr "시작 대기 중"
 #: openpilot/selfdrive/ui/layouts/onboarding.py:118
 #, python-format
 msgid "Welcome to sunnypilot"
-msgstr ""
+msgstr "sunnypilot에 오신 것을 환영합니다"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:24
 msgid "When enabled, pressing the accelerator pedal will disengage sunnypilot."
@@ -915,7 +915,7 @@ msgstr "카메라 시작 중"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:22
 #, python-format
 msgid "checking..."
-msgstr ""
+msgstr "확인 중..."
 
 #: openpilot/selfdrive/ui/widgets/prime.py:63
 #, python-format
@@ -935,7 +935,7 @@ msgstr "아래"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:23
 #, python-format
 msgid "downloading..."
-msgstr ""
+msgstr "다운로드 중..."
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:118
 #, python-format
@@ -945,7 +945,7 @@ msgstr "업데이트 확인 실패"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:24
 #, python-format
 msgid "finalizing update..."
-msgstr ""
+msgstr "업데이트 마무리 중..."
 
 #: system/ui/widgets/network.py:244
 #: system/ui/widgets/network.py:327
@@ -996,12 +996,12 @@ msgstr "오른쪽"
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:75
 #, python-format
 msgid "sunnypilot Longitudinal Control (Alpha)"
-msgstr ""
+msgstr "sunnypilot 가감속 제어 (알파)"
 
 #: openpilot/selfdrive/ui/onroad/alert_renderer.py:51
 #, python-format
 msgid "sunnypilot Unavailable"
-msgstr ""
+msgstr "sunnypilot 사용할 수 없음"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:188
 #, python-format
