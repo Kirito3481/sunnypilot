@@ -17,22 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:152
+#: openpilot/selfdrive/ui/layouts/settings/device.py:155
 #, python-format
 msgid " Steering torque response calibration is complete."
 msgstr " 스티어링 토크 응답 보정이 완료되었습니다."
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:150
+#: openpilot/selfdrive/ui/layouts/settings/device.py:153
 #, python-format
 msgid " Steering torque response calibration is {}% complete."
 msgstr " 스티어링 토크 응답 보정이 {}% 완료되었습니다."
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:125
+#: openpilot/selfdrive/ui/layouts/settings/device.py:128
 #, python-format
 msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
 msgstr " 장치는 {:.1f}° {} 및 {:.1f}° {} 방향을 가리키고 있습니다."
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:43
+#: openpilot/selfdrive/ui/layouts/sidebar.py:45
 msgid "--"
 msgstr "--"
 
@@ -46,33 +46,33 @@ msgstr "주행 데이터 1년 보관"
 msgid "24/7 LTE connectivity"
 msgstr "연중무휴 LTE 연결"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:46
+#: openpilot/selfdrive/ui/layouts/sidebar.py:48
 msgid "2G"
 msgstr "2G"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:47
+#: openpilot/selfdrive/ui/layouts/sidebar.py:49
 msgid "3G"
 msgstr "3G"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:49
+#: openpilot/selfdrive/ui/layouts/sidebar.py:51
 msgid "5G"
 msgstr "5G"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:140
+#: openpilot/selfdrive/ui/layouts/settings/device.py:143
 #, python-format
 msgid "<br><br>Steering lag calibration is complete."
 msgstr "<br><br>스티어링 지연 보정이 완료되었습니다."
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:138
+#: openpilot/selfdrive/ui/layouts/settings/device.py:141
 #, python-format
 msgid "<br><br>Steering lag calibration is {}% complete."
 msgstr "<br><br>스티어링 지연 보정이 {}% 완료되었습니다."
 
-#: openpilot/selfdrive/ui/widgets/ssh_key.py:30
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:74
 msgid "ADD"
 msgstr "추가"
 
-#: system/ui/widgets/network.py:136
+#: system/ui/widgets/network.py:142
 #, python-format
 msgid "APN Setting"
 msgstr "APN 설정"
@@ -82,49 +82,49 @@ msgstr "APN 설정"
 msgid "Acknowledge Excessive Actuation"
 msgstr "과도한 작동을 확인"
 
-#: system/ui/widgets/network.py:92
-#: system/ui/widgets/network.py:74
+#: system/ui/widgets/network.py:98
+#: system/ui/widgets/network.py:80
 #, python-format
 msgid "Advanced"
 msgstr "고급"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:98
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:102
 #, python-format
 msgid "Aggressive"
 msgstr "공격적"
 
-#: openpilot/selfdrive/ui/layouts/onboarding.py:120
+#: openpilot/selfdrive/ui/layouts/onboarding.py:123
 #, python-format
 msgid "Agree"
 msgstr "동의"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:70
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:74
 #, python-format
 msgid "Always-On Driver Monitoring"
 msgstr "운전자 모니터링 항상 켜짐"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:183
+#: openpilot/selfdrive/ui/layouts/settings/device.py:186
 #, python-format
 msgid "Are you sure you want to power off?"
 msgstr "정말 전원을 끄시겠습니까?"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:171
+#: openpilot/selfdrive/ui/layouts/settings/device.py:174
 #, python-format
 msgid "Are you sure you want to reboot?"
 msgstr "정말 재시작하시겠습니까?"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:111
+#: openpilot/selfdrive/ui/layouts/settings/device.py:114
 #, python-format
 msgid "Are you sure you want to reset calibration?"
 msgstr "정말 보정을 재설정하시겠습니까?"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:173
+#: openpilot/selfdrive/ui/layouts/settings/software.py:175
 #, python-format
 msgid "Are you sure you want to uninstall?"
 msgstr "정말 제거하시겠습니까?"
 
-#: system/ui/widgets/network.py:96
-#: openpilot/selfdrive/ui/layouts/onboarding.py:151
+#: system/ui/widgets/network.py:102
+#: openpilot/selfdrive/ui/layouts/onboarding.py:154
 #, python-format
 msgid "Back"
 msgstr "뒤로"
@@ -139,15 +139,15 @@ msgstr "connect.comma.ai에서 comma prime 회원이 되세요"
 msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
 msgstr "connect.comma.ai를 홈 화면에 추가하여 앱처럼 사용하세요"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:66
+#: openpilot/selfdrive/ui/layouts/settings/device.py:69
 #, python-format
 msgid "CHANGE"
 msgstr "변경"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:157
-#: openpilot/selfdrive/ui/layouts/settings/software.py:57
-#: openpilot/selfdrive/ui/layouts/settings/software.py:117
-#: openpilot/selfdrive/ui/layouts/settings/software.py:128
+#: openpilot/selfdrive/ui/layouts/settings/software.py:159
+#: openpilot/selfdrive/ui/layouts/settings/software.py:60
+#: openpilot/selfdrive/ui/layouts/settings/software.py:119
+#: openpilot/selfdrive/ui/layouts/settings/software.py:130
 #, python-format
 msgid "CHECK"
 msgstr "확인"
@@ -157,42 +157,47 @@ msgstr "확인"
 msgid "CHILL MODE ON"
 msgstr "안정적 모드 켜짐"
 
-#: system/ui/widgets/network.py:152
-#: openpilot/selfdrive/ui/layouts/sidebar.py:73
-#: openpilot/selfdrive/ui/layouts/sidebar.py:134
-#: openpilot/selfdrive/ui/layouts/sidebar.py:136
+#: system/ui/widgets/network.py:158
+#: openpilot/selfdrive/ui/layouts/sidebar.py:76
 #: openpilot/selfdrive/ui/layouts/sidebar.py:138
+#: openpilot/selfdrive/ui/layouts/sidebar.py:140
+#: openpilot/selfdrive/ui/layouts/sidebar.py:142
 #, python-format
 msgid "CONNECT"
 msgstr "연결"
 
-#: system/ui/widgets/network.py:376
+#: system/ui/widgets/network.py:382
 #, python-format
 msgid "CONNECTING..."
 msgstr "연결 중..."
 
-#: system/ui/widgets/network.py:326
+#: system/ui/widgets/network.py:332
+#: system/ui/widgets/keyboard.py:83
 #: system/ui/widgets/confirm_dialog.py:24
 #: system/ui/widgets/option_dialog.py:36
-#: system/ui/widgets/keyboard.py:83
 #, python-format
 msgid "Cancel"
 msgstr "취소"
 
-#: system/ui/widgets/network.py:131
+#: system/ui/widgets/network.py:137
 #, python-format
 msgid "Cellular Metered"
 msgstr "종량제 셀룰러"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:66
+#: openpilot/selfdrive/ui/layouts/settings/device.py:69
 #, python-format
 msgid "Change Language"
 msgstr "언어 변경"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:125
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:129
 #, python-format
-msgid "Changing this setting will restart openpilot if the car is powered on."
-msgstr "차량 전원이 켜져 있으면 이 설정을 변경할 때 openpilot이 재시작됩니다."
+msgid "Changing this setting will restart sunnypilot if the car is powered on."
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:102
+#, python-format
+msgid "Choose your sponsorship tier and confirm your support"
+msgstr ""
 
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py:118
 #, python-format
@@ -204,25 +209,25 @@ msgstr "\"add new device\"를 눌러 오른쪽의 QR 코드를 스캔하세요"
 msgid "Close"
 msgstr "닫기"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:56
+#: openpilot/selfdrive/ui/layouts/settings/software.py:59
 #, python-format
 msgid "Current Version"
 msgstr "현재 버전"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:120
+#: openpilot/selfdrive/ui/layouts/settings/software.py:122
 #, python-format
 msgid "DOWNLOAD"
 msgstr "다운로드"
 
-#: openpilot/selfdrive/ui/layouts/onboarding.py:119
+#: openpilot/selfdrive/ui/layouts/onboarding.py:122
 #, python-format
 msgid "Decline"
 msgstr "거부"
 
-#: openpilot/selfdrive/ui/layouts/onboarding.py:152
+#: openpilot/selfdrive/ui/layouts/onboarding.py:155
 #, python-format
-msgid "Decline, uninstall openpilot"
-msgstr "거부하고 openpilot 제거"
+msgid "Decline, uninstall sunnypilot"
+msgstr ""
 
 #: openpilot/selfdrive/ui/layouts/settings/settings.py:64
 msgid "Developer"
@@ -232,61 +237,61 @@ msgstr "개발자"
 msgid "Device"
 msgstr "장치"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:58
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:62
 #, python-format
 msgid "Disengage on Accelerator Pedal"
 msgstr "가속 페달로 해제"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:176
+#: openpilot/selfdrive/ui/layouts/settings/device.py:179
 #, python-format
 msgid "Disengage to Power Off"
 msgstr "해제 후 전원 끄기"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:164
+#: openpilot/selfdrive/ui/layouts/settings/device.py:167
 #, python-format
 msgid "Disengage to Reboot"
 msgstr "해제 후 재시작"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:95
+#: openpilot/selfdrive/ui/layouts/settings/device.py:98
 #, python-format
 msgid "Disengage to Reset Calibration"
 msgstr "해제 후 캘리브레이션 재설정"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:32
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:36
 msgid "Display speed in km/h instead of mph."
 msgstr "속도를 mph 대신 km/h로 표시합니다."
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:57
+#: openpilot/selfdrive/ui/layouts/settings/device.py:60
 #, python-format
 msgid "Dongle ID"
 msgstr "동글 ID"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:57
+#: openpilot/selfdrive/ui/layouts/settings/software.py:60
 #, python-format
 msgid "Download"
 msgstr "다운로드"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:60
+#: openpilot/selfdrive/ui/layouts/settings/device.py:63
 #, python-format
 msgid "Driver Camera"
 msgstr "운전자 카메라"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:96
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:100
 #, python-format
 msgid "Driving Personality"
 msgstr "주행 성향"
 
-#: system/ui/widgets/network.py:120
-#: system/ui/widgets/network.py:136
+#: system/ui/widgets/network.py:126
+#: system/ui/widgets/network.py:142
 #, python-format
 msgid "EDIT"
 msgstr "편집"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:138
+#: openpilot/selfdrive/ui/layouts/sidebar.py:142
 msgid "ERROR"
 msgstr "오류"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:45
+#: openpilot/selfdrive/ui/layouts/sidebar.py:47
 msgid "ETH"
 msgstr "ETH"
 
@@ -295,73 +300,83 @@ msgstr "ETH"
 msgid "EXPERIMENTAL MODE ON"
 msgstr "실험 모드 켜짐"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:229
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:180
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:68
+#, python-format
+msgid "Early Access: Become a sunnypilot Sponsor"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:233
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:185
 #, python-format
 msgid "Enable"
 msgstr "사용"
 
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:39
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:43
 #, python-format
 msgid "Enable ADB"
 msgstr "ADB 사용"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:64
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:68
 #, python-format
 msgid "Enable Lane Departure Warnings"
 msgstr "차선 이탈 경고 사용"
 
-#: system/ui/widgets/network.py:126
+#: system/ui/widgets/network.py:132
 #, python-format
 msgid "Enable Roaming"
 msgstr "로밍 사용"
 
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:48
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:52
 #, python-format
 msgid "Enable SSH"
 msgstr "SSH 사용"
 
-#: system/ui/widgets/network.py:117
+#: system/ui/widgets/network.py:123
 #, python-format
 msgid "Enable Tethering"
 msgstr "테더링 사용"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:30
-msgid "Enable driver monitoring even when openpilot is not engaged."
-msgstr "openpilot이 작동 중이 아닐 때도 운전자 모니터링을 사용합니다."
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:34
+msgid "Enable driver monitoring even when sunnypilot is not engaged."
+msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:46
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:50
 #, python-format
-msgid "Enable openpilot"
-msgstr "openpilot 사용"
+msgid "Enable sunnypilot"
+msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:190
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:194
 #, python-format
-msgid "Enable the openpilot longitudinal control (alpha) toggle to allow Experimental mode."
-msgstr "실험 모드를 사용하려면 openpilot 롱컨 제어(알파) 토글을 켜세요."
+msgid "Enable the sunnypilot longitudinal control (alpha) toggle to allow Experimental mode."
+msgstr ""
 
-#: system/ui/widgets/network.py:201
+#: system/ui/widgets/network.py:207
 #, python-format
 msgid "Enter APN"
 msgstr "APN 입력"
 
-#: system/ui/widgets/network.py:243
+#: system/ui/widgets/network.py:249
 #, python-format
 msgid "Enter SSID"
 msgstr "SSID 입력"
 
-#: system/ui/widgets/network.py:257
+#: system/ui/widgets/network.py:263
 #, python-format
 msgid "Enter new tethering password"
 msgstr "새 테더링 비밀번호 입력"
 
-#: system/ui/widgets/network.py:238
-#: system/ui/widgets/network.py:320
+#: system/ui/widgets/network.py:244
+#: system/ui/widgets/network.py:326
 #, python-format
 msgid "Enter password"
 msgstr "비밀번호 입력"
 
-#: openpilot/selfdrive/ui/widgets/ssh_key.py:89
+#: system/ui/sunnypilot/widgets/tree_dialog.py:107
+#, python-format
+msgid "Enter search query"
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:129
 #, python-format
 msgid "Enter your GitHub username"
 msgstr "GitHub 사용자 이름 입력"
@@ -372,17 +387,17 @@ msgstr "GitHub 사용자 이름 입력"
 msgid "Error"
 msgstr "오류"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:52
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:56
 #, python-format
 msgid "Experimental Mode"
 msgstr "실험 모드"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:182
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:186
 #, python-format
 msgid "Experimental mode is currently unavailable on this car since the car's stock ACC is used for longitudinal control."
 msgstr "이 차량은 롱컨 제어에 순정 ACC를 사용하므로 현재 실험 모드를 사용할 수 없습니다."
 
-#: system/ui/widgets/network.py:380
+#: system/ui/widgets/network.py:386
 #, python-format
 msgid "FORGETTING..."
 msgstr "삭제 중..."
@@ -400,19 +415,24 @@ msgstr "파이어호스"
 msgid "Firehose Mode"
 msgstr "파이어호스 모드"
 
-#: system/ui/widgets/network.py:458
-#: system/ui/widgets/network.py:326
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:95
+#, python-format
+msgid "Follow the prompts to complete the pairing process"
+msgstr ""
+
+#: system/ui/widgets/network.py:464
+#: system/ui/widgets/network.py:332
 #, python-format
 msgid "Forget"
 msgstr "삭제"
 
-#: system/ui/widgets/network.py:327
+#: system/ui/widgets/network.py:333
 #, python-format
 msgid "Forget Wi-Fi Network \"{}\"?"
 msgstr "Wi‑Fi 네트워크 \"{}\"를 삭제하시겠습니까?"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:71
-#: openpilot/selfdrive/ui/layouts/sidebar.py:125
+#: openpilot/selfdrive/ui/layouts/sidebar.py:74
+#: openpilot/selfdrive/ui/layouts/sidebar.py:129
 msgid "GOOD"
 msgstr "양호"
 
@@ -421,45 +441,55 @@ msgstr "양호"
 msgid "Go to https://connect.comma.ai on your phone"
 msgstr "휴대폰에서 https://connect.comma.ai 에 접속하세요"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:129
+#: openpilot/selfdrive/ui/layouts/sidebar.py:133
 msgid "HIGH"
 msgstr "높음"
 
-#: system/ui/widgets/network.py:152
+#: system/ui/widgets/network.py:158
 #, python-format
 msgid "Hidden Network"
 msgstr "숨겨진 네트워크"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:60
-#: openpilot/selfdrive/ui/layouts/settings/software.py:146
+#: openpilot/selfdrive/ui/layouts/settings/software.py:63
+#: openpilot/selfdrive/ui/layouts/settings/software.py:148
 #, python-format
 msgid "INSTALL"
 msgstr "설치"
 
-#: system/ui/widgets/network.py:147
+#: system/ui/widgets/network.py:153
 #, python-format
 msgid "IP Address"
 msgstr "IP 주소"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:60
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:97
+#, python-format
+msgid "If sponsorship status was not updated, please contact a moderator on the community forum at https://community.sunnypilot.ai"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:63
 #, python-format
 msgid "Install Update"
 msgstr "업데이트 설치"
 
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:56
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:103
+#, python-format
+msgid "Join our Community Forum at https://community.sunnypilot.ai and reach out to a moderator if you have issues"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:60
 #, python-format
 msgid "Joystick Debug Mode"
 msgstr "조이스틱 디버그 모드"
 
-#: openpilot/selfdrive/ui/widgets/ssh_key.py:29
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:73
 msgid "LOADING"
 msgstr "로딩 중"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:48
+#: openpilot/selfdrive/ui/layouts/sidebar.py:50
 msgid "LTE"
 msgstr "LTE"
 
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:64
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:68
 #, python-format
 msgid "Longitudinal Maneuver Mode"
 msgstr "롱컨 기동 모드"
@@ -474,13 +504,13 @@ msgstr "최대"
 msgid "Maximize your training data uploads to improve openpilot's driving models."
 msgstr "학습 데이터 업로드를 최대화하여 openpilot의 주행 모델을 개선하세요."
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:57
-#: openpilot/selfdrive/ui/layouts/settings/device.py:58
+#: openpilot/selfdrive/ui/layouts/settings/device.py:60
+#: openpilot/selfdrive/ui/layouts/settings/device.py:61
 #, python-format
 msgid "N/A"
 msgstr "해당 없음"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:142
+#: openpilot/selfdrive/ui/layouts/sidebar.py:146
 msgid "NO"
 msgstr "아니오"
 
@@ -488,12 +518,7 @@ msgstr "아니오"
 msgid "Network"
 msgstr "네트워크"
 
-#: openpilot/selfdrive/ui/widgets/ssh_key.py:115
-#, python-format
-msgid "No SSH keys found"
-msgstr "SSH 키를 찾을 수 없습니다"
-
-#: openpilot/selfdrive/ui/widgets/ssh_key.py:127
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:67
 #, python-format
 msgid "No SSH keys found for user '{}'"
 msgstr "사용자 '{}'의 SSH 키를 찾을 수 없습니다"
@@ -503,21 +528,21 @@ msgstr "사용자 '{}'의 SSH 키를 찾을 수 없습니다"
 msgid "No release notes available."
 msgstr "릴리스 노트가 없습니다."
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:73
-#: openpilot/selfdrive/ui/layouts/sidebar.py:134
+#: openpilot/selfdrive/ui/layouts/sidebar.py:76
+#: openpilot/selfdrive/ui/layouts/sidebar.py:138
 msgid "OFFLINE"
 msgstr "오프라인"
 
-#: system/ui/widgets/confirm_dialog.py:93
 #: system/ui/widgets/html_render.py:263
-#: openpilot/selfdrive/ui/layouts/sidebar.py:127
+#: system/ui/widgets/confirm_dialog.py:93
+#: openpilot/selfdrive/ui/layouts/sidebar.py:131
 #, python-format
 msgid "OK"
 msgstr "확인"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:72
-#: openpilot/selfdrive/ui/layouts/sidebar.py:144
-#: openpilot/selfdrive/ui/layouts/sidebar.py:136
+#: openpilot/selfdrive/ui/layouts/sidebar.py:75
+#: openpilot/selfdrive/ui/layouts/sidebar.py:148
+#: openpilot/selfdrive/ui/layouts/sidebar.py:140
 msgid "ONLINE"
 msgstr "온라인"
 
@@ -526,16 +551,16 @@ msgstr "온라인"
 msgid "Open"
 msgstr "열기"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:45
+#: openpilot/selfdrive/ui/layouts/settings/device.py:48
 #, python-format
 msgid "PAIR"
 msgstr "페어링"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:142
+#: openpilot/selfdrive/ui/layouts/sidebar.py:146
 msgid "PANDA"
 msgstr "PANDA"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:60
+#: openpilot/selfdrive/ui/layouts/settings/device.py:63
 #, python-format
 msgid "PREVIEW"
 msgstr "미리보기"
@@ -545,7 +570,7 @@ msgstr "미리보기"
 msgid "PRIME FEATURES:"
 msgstr "프라임 기능:"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:45
+#: openpilot/selfdrive/ui/layouts/settings/device.py:48
 #, python-format
 msgid "Pair Device"
 msgstr "장치 페어링"
@@ -555,13 +580,18 @@ msgstr "장치 페어링"
 msgid "Pair device"
 msgstr "장치 페어링"
 
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:68
+#, python-format
+msgid "Pair your GitHub account"
+msgstr ""
+
 #: openpilot/selfdrive/ui/widgets/pairing_dialog.py:92
 #, python-format
 msgid "Pair your device to your comma account"
 msgstr "장치를 귀하의 comma 계정에 페어링하세요"
 
 #: openpilot/selfdrive/ui/widgets/setup.py:47
-#: openpilot/selfdrive/ui/layouts/settings/device.py:23
+#: openpilot/selfdrive/ui/layouts/settings/device.py:26
 #, python-format
 msgid "Pair your device with comma connect (connect.comma.ai) and claim your comma prime offer."
 msgstr "장치를 comma connect(connect.comma.ai)와 페어링하고 comma 프라임 혜택을 받으세요."
@@ -571,23 +601,23 @@ msgstr "장치를 comma connect(connect.comma.ai)와 페어링하고 comma 프�
 msgid "Please connect to Wi-Fi to complete initial pairing"
 msgstr "초기 페어링을 완료하려면 Wi‑Fi에 연결하세요"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:183
-#: openpilot/selfdrive/ui/layouts/settings/device.py:53
+#: openpilot/selfdrive/ui/layouts/settings/device.py:186
+#: openpilot/selfdrive/ui/layouts/settings/device.py:56
 #, python-format
 msgid "Power Off"
 msgstr "전원 끄기"
 
-#: system/ui/widgets/network.py:141
+#: system/ui/widgets/network.py:147
 #, python-format
 msgid "Prevent large data uploads when on a metered Wi-Fi connection"
 msgstr "종량제 Wi‑Fi 연결 시 대용량 업로드 방지"
 
-#: system/ui/widgets/network.py:132
+#: system/ui/widgets/network.py:138
 #, python-format
 msgid "Prevent large data uploads when on a metered cellular connection"
 msgstr "종량제 셀룰러 연결 시 대용량 업로드 방지"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:24
+#: openpilot/selfdrive/ui/layouts/settings/device.py:27
 msgid "Preview the driver facing camera to ensure that driver monitoring has good visibility. (vehicle must be off)"
 msgstr "운전자 모니터링의 가시성을 확인하기 위해 운전자 카메라를 미리 봅니다. (차량은 꺼져 있어야 합니다)"
 
@@ -596,22 +626,27 @@ msgstr "운전자 모니터링의 가시성을 확인하기 위해 운전자 카
 msgid "QR Code Error"
 msgstr "QR 코드 오류"
 
-#: openpilot/selfdrive/ui/widgets/ssh_key.py:31
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:75
 msgid "REMOVE"
 msgstr "제거"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:49
+#: openpilot/selfdrive/ui/layouts/settings/device.py:52
 #, python-format
 msgid "RESET"
 msgstr "재설정"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:63
+#: openpilot/selfdrive/ui/layouts/settings/device.py:66
 #, python-format
 msgid "REVIEW"
 msgstr "검토"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:171
-#: openpilot/selfdrive/ui/layouts/settings/device.py:53
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:96
+#, python-format
+msgid "Re-enter the \"sunnylink\" panel to verify sponsorship status"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:174
+#: openpilot/selfdrive/ui/layouts/settings/device.py:56
 #, python-format
 msgid "Reboot"
 msgstr "재시작"
@@ -626,26 +661,26 @@ msgstr "장치 재시작"
 msgid "Reboot and Update"
 msgstr "재시작 및 업데이트"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:76
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:80
 #, python-format
 msgid "Record and Upload Driver Camera"
 msgstr "운전자 카메라 기록 및 업로드"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:82
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:86
 #, python-format
 msgid "Record and Upload Microphone Audio"
 msgstr "마이크 오디오 기록 및 업로드"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:33
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:37
 msgid "Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect."
 msgstr "주행 중 마이크 오디오를 기록하고 저장합니다. 오디오는 comma connect의 대시캠 영상에 포함됩니다."
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:65
+#: openpilot/selfdrive/ui/layouts/settings/device.py:68
 #, python-format
 msgid "Regulatory"
 msgstr "규제 정보"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:98
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:102
 #, python-format
 msgid "Relaxed"
 msgstr "편안한"
@@ -660,61 +695,76 @@ msgstr "원격 액세스"
 msgid "Remote snapshots"
 msgstr "원격 스냅샷"
 
-#: openpilot/selfdrive/ui/widgets/ssh_key.py:124
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:65
 #, python-format
 msgid "Request timed out"
 msgstr "요청 시간이 초과되었습니다"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:111
+#: openpilot/selfdrive/ui/layouts/settings/device.py:114
 #, python-format
 msgid "Reset"
 msgstr "재설정"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:49
+#: openpilot/selfdrive/ui/layouts/settings/device.py:52
 #, python-format
 msgid "Reset Calibration"
 msgstr "캘리브레이션 재설정"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:63
+#: openpilot/selfdrive/ui/layouts/settings/device.py:66
 #, python-format
 msgid "Review Training Guide"
 msgstr "학습 가이드 검토"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:26
-msgid "Review the rules, features, and limitations of openpilot"
-msgstr "openpilot의 규칙, 기능 및 제한을 검토"
+#: openpilot/selfdrive/ui/layouts/settings/device.py:29
+msgid "Review the rules, features, and limitations of sunnypilot"
+msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:68
+#: openpilot/selfdrive/ui/layouts/settings/software.py:71
 #, python-format
 msgid "SELECT"
 msgstr "선택"
 
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:53
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:57
 #, python-format
 msgid "SSH Keys"
 msgstr "SSH 키"
 
-#: system/ui/widgets/network.py:316
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:94
+#, python-format
+msgid "Scan the QR code to login to your GitHub account"
+msgstr ""
+
+#: system/ui/sunnypilot/widgets/sunnylink_pairing_dialog.py:101
+#, python-format
+msgid "Scan the QR code to visit sunnyhaibin's GitHub Sponsors page"
+msgstr ""
+
+#: system/ui/widgets/network.py:322
 #, python-format
 msgid "Scanning Wi-Fi networks..."
 msgstr "Wi‑Fi 네트워크 검색 중..."
+
+#: system/ui/sunnypilot/widgets/tree_dialog.py:98
+#, python-format
+msgid "Search"
+msgstr ""
 
 #: system/ui/widgets/option_dialog.py:37
 #, python-format
 msgid "Select"
 msgstr "선택"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:203
+#: openpilot/selfdrive/ui/layouts/settings/software.py:205
 #, python-format
 msgid "Select a branch"
 msgstr "브랜치 선택"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:89
+#: openpilot/selfdrive/ui/layouts/settings/device.py:92
 #, python-format
 msgid "Select a language"
 msgstr "언어 선택"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:58
+#: openpilot/selfdrive/ui/layouts/settings/device.py:61
 #, python-format
 msgid "Serial"
 msgstr "시리얼"
@@ -728,7 +778,7 @@ msgstr "업데이트 나중에 알림"
 msgid "Software"
 msgstr "소프트웨어"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:98
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:102
 #, python-format
 msgid "Standard"
 msgstr "표준"
@@ -744,19 +794,19 @@ msgstr "시스템 응답 없음"
 msgid "TAKE CONTROL IMMEDIATELY"
 msgstr "즉시 수동 조작하세요"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:71
-#: openpilot/selfdrive/ui/layouts/sidebar.py:125
-#: openpilot/selfdrive/ui/layouts/sidebar.py:127
+#: openpilot/selfdrive/ui/layouts/sidebar.py:74
 #: openpilot/selfdrive/ui/layouts/sidebar.py:129
+#: openpilot/selfdrive/ui/layouts/sidebar.py:131
+#: openpilot/selfdrive/ui/layouts/sidebar.py:133
 msgid "TEMP"
 msgstr "온도"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:68
+#: openpilot/selfdrive/ui/layouts/settings/software.py:71
 #, python-format
 msgid "Target Branch"
 msgstr "대상 브랜치"
 
-#: system/ui/widgets/network.py:121
+#: system/ui/widgets/network.py:127
 #, python-format
 msgid "Tethering Password"
 msgstr "테더링 비밀번호"
@@ -765,12 +815,12 @@ msgstr "테더링 비밀번호"
 msgid "Toggles"
 msgstr "토글"
 
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:79
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:83
 #, python-format
 msgid "UI Debug Mode"
 msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:79
+#: openpilot/selfdrive/ui/layouts/settings/software.py:81
 #, python-format
 msgid "UNINSTALL"
 msgstr "제거"
@@ -780,17 +830,17 @@ msgstr "제거"
 msgid "UPDATE"
 msgstr "업데이트"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:173
-#: openpilot/selfdrive/ui/layouts/settings/software.py:79
+#: openpilot/selfdrive/ui/layouts/settings/software.py:175
+#: openpilot/selfdrive/ui/layouts/settings/software.py:81
 #, python-format
 msgid "Uninstall"
 msgstr "제거"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:117
+#: openpilot/selfdrive/ui/layouts/sidebar.py:121
 msgid "Unknown"
 msgstr "알수없음"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:55
+#: openpilot/selfdrive/ui/layouts/settings/software.py:58
 #, python-format
 msgid "Updates are only downloaded while the car is off."
 msgstr "업데이트는 차량 전원이 꺼져 있을 때만 다운로드됩니다."
@@ -800,21 +850,21 @@ msgstr "업데이트는 차량 전원이 꺼져 있을 때만 다운로드됩니
 msgid "Upgrade Now"
 msgstr "지금 업그레이드"
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:31
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:35
 msgid "Upload data from the driver facing camera and help improve the driver monitoring algorithm."
 msgstr "운전자 방향 카메라 데이터를 업로드하여 운전자 모니터링 알고리즘 개선에 도움을 주세요."
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:88
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:92
 #, python-format
 msgid "Use Metric System"
 msgstr "미터법 사용"
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:72
-#: openpilot/selfdrive/ui/layouts/sidebar.py:144
+#: openpilot/selfdrive/ui/layouts/sidebar.py:75
+#: openpilot/selfdrive/ui/layouts/sidebar.py:148
 msgid "VEHICLE"
 msgstr "차량"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:65
+#: openpilot/selfdrive/ui/layouts/settings/device.py:68
 #, python-format
 msgid "VIEW"
 msgstr "보기"
@@ -824,45 +874,45 @@ msgstr "보기"
 msgid "Waiting to start"
 msgstr "시작 대기 중"
 
-#: openpilot/selfdrive/ui/layouts/onboarding.py:115
+#: openpilot/selfdrive/ui/layouts/onboarding.py:118
 #, python-format
-msgid "Welcome to openpilot"
-msgstr "openpilot에 오신 것을 환영합니다"
+msgid "Welcome to sunnypilot"
+msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:20
-msgid "When enabled, pressing the accelerator pedal will disengage openpilot."
-msgstr "이 옵션을 켜면 가속 페달을 밟을 때 openpilot이 해제됩니다."
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:24
+msgid "When enabled, pressing the accelerator pedal will disengage sunnypilot."
+msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/sidebar.py:44
+#: openpilot/selfdrive/ui/layouts/sidebar.py:46
 msgid "Wi-Fi"
 msgstr "Wi‑Fi"
 
-#: system/ui/widgets/network.py:141
+#: system/ui/widgets/network.py:147
 #, python-format
 msgid "Wi-Fi Network Metered"
 msgstr "Wi‑Fi 네트워크 종량제"
 
-#: system/ui/widgets/network.py:320
+#: system/ui/widgets/network.py:326
 #, python-format
 msgid "Wrong password"
 msgstr "비밀번호가 올바르지 않습니다"
 
-#: openpilot/selfdrive/ui/layouts/onboarding.py:149
+#: openpilot/selfdrive/ui/layouts/onboarding.py:152
 #, python-format
-msgid "You must accept the Terms and Conditions in order to use openpilot."
-msgstr "openpilot을 사용하려면 약관에 동의해야 합니다."
+msgid "You must accept the Terms of Service in order to use sunnypilot."
+msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/onboarding.py:116
+#: openpilot/selfdrive/ui/layouts/onboarding.py:119
 #, python-format
-msgid "You must accept the Terms and Conditions to use openpilot. Read the latest terms at https://comma.ai/terms before continuing."
-msgstr "openpilot을 사용하려면 약관에 동의해야 합니다. 계속하기 전에 https://comma.ai/terms 에서 최신 약관을 읽어주세요."
+msgid "You must accept the Terms of Service to use sunnypilot. Read the latest terms at https://sunnypilot.ai/terms before continuing."
+msgstr ""
 
 #: openpilot/selfdrive/ui/onroad/driver_camera_dialog.py:38
 #, python-format
 msgid "camera starting"
 msgstr "카메라 시작 중"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:19
+#: openpilot/selfdrive/ui/layouts/settings/software.py:22
 #, python-format
 msgid "checking..."
 msgstr ""
@@ -872,33 +922,33 @@ msgstr ""
 msgid "comma prime"
 msgstr "comma 프라임"
 
-#: system/ui/widgets/network.py:139
+#: system/ui/widgets/network.py:145
 #, python-format
 msgid "default"
 msgstr "기본값"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:125
+#: openpilot/selfdrive/ui/layouts/settings/device.py:128
 #, python-format
 msgid "down"
 msgstr "아래"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:20
+#: openpilot/selfdrive/ui/layouts/settings/software.py:23
 #, python-format
 msgid "downloading..."
 msgstr ""
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:116
+#: openpilot/selfdrive/ui/layouts/settings/software.py:118
 #, python-format
 msgid "failed to check for update"
 msgstr "업데이트 확인 실패"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:21
+#: openpilot/selfdrive/ui/layouts/settings/software.py:24
 #, python-format
 msgid "finalizing update..."
 msgstr ""
 
-#: system/ui/widgets/network.py:238
-#: system/ui/widgets/network.py:321
+#: system/ui/widgets/network.py:244
+#: system/ui/widgets/network.py:327
 #, python-format
 msgid "for \"{}\""
 msgstr "\"{}\"용"
@@ -908,17 +958,17 @@ msgstr "\"{}\"용"
 msgid "km/h"
 msgstr "km/h"
 
-#: system/ui/widgets/network.py:201
+#: system/ui/widgets/network.py:207
 #, python-format
 msgid "leave blank for automatic configuration"
 msgstr "자동 구성을 사용하려면 비워 두세요"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:126
+#: openpilot/selfdrive/ui/layouts/settings/device.py:129
 #, python-format
 msgid "left"
 msgstr "왼쪽"
 
-#: system/ui/widgets/network.py:139
+#: system/ui/widgets/network.py:145
 #, python-format
 msgid "metered"
 msgstr "종량제"
@@ -928,61 +978,61 @@ msgstr "종량제"
 msgid "mph"
 msgstr "mph"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:27
+#: openpilot/selfdrive/ui/layouts/settings/software.py:30
 #, python-format
 msgid "never"
 msgstr "없음"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:38
+#: openpilot/selfdrive/ui/layouts/settings/software.py:41
 #, python-format
 msgid "now"
 msgstr "지금"
 
-#: openpilot/selfdrive/ui/layouts/settings/developer.py:71
-#, python-format
-msgid "openpilot Longitudinal Control (Alpha)"
-msgstr "openpilot 롱컨 제어(알파)"
-
-#: openpilot/selfdrive/ui/onroad/alert_renderer.py:51
-#, python-format
-msgid "openpilot Unavailable"
-msgstr "openpilot 사용 불가"
-
-#: openpilot/selfdrive/ui/layouts/settings/toggles.py:184
-#, python-format
-msgid "openpilot longitudinal control may come in a future update."
-msgstr "openpilot 롱컨 제어는 향후 업데이트에서 제공될 수 있습니다."
-
-#: openpilot/selfdrive/ui/layouts/settings/device.py:25
-msgid "openpilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
-msgstr "openpilot은 장치를 좌우 4°, 위쪽 5°, 아래쪽 9° 이내로 장착해야 합니다."
-
-#: openpilot/selfdrive/ui/layouts/settings/device.py:126
+#: openpilot/selfdrive/ui/layouts/settings/device.py:129
 #, python-format
 msgid "right"
 msgstr "오른쪽"
 
-#: system/ui/widgets/network.py:139
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:75
+#, python-format
+msgid "sunnypilot Longitudinal Control (Alpha)"
+msgstr ""
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:51
+#, python-format
+msgid "sunnypilot Unavailable"
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:188
+#, python-format
+msgid "sunnypilot longitudinal control may come in a future update."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:28
+msgid "sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down."
+msgstr ""
+
+#: system/ui/widgets/network.py:145
 #, python-format
 msgid "unmetered"
 msgstr "비종량제"
 
-#: openpilot/selfdrive/ui/layouts/settings/device.py:125
+#: openpilot/selfdrive/ui/layouts/settings/device.py:128
 #, python-format
 msgid "up"
 msgstr "위"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:127
+#: openpilot/selfdrive/ui/layouts/settings/software.py:129
 #, python-format
 msgid "up to date, last checked never"
 msgstr "최신입니다. 마지막 확인: 없음"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:125
+#: openpilot/selfdrive/ui/layouts/settings/software.py:127
 #, python-format
 msgid "up to date, last checked {}"
 msgstr "최신입니다. 마지막 확인: {}"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:119
+#: openpilot/selfdrive/ui/layouts/settings/software.py:121
 #, python-format
 msgid "update available"
 msgstr "업데이트 가능"
@@ -993,19 +1043,19 @@ msgid "{} ALERT"
 msgid_plural "{} ALERTS"
 msgstr[0] "{}건의 알림"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:47
+#: openpilot/selfdrive/ui/layouts/settings/software.py:50
 #, python-format
 msgid "{} day ago"
 msgid_plural "{} days ago"
 msgstr[0] "{}일 전"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:44
+#: openpilot/selfdrive/ui/layouts/settings/software.py:47
 #, python-format
 msgid "{} hour ago"
 msgid_plural "{} hours ago"
 msgstr[0] "{}시간 전"
 
-#: openpilot/selfdrive/ui/layouts/settings/software.py:41
+#: openpilot/selfdrive/ui/layouts/settings/software.py:44
 #, python-format
 msgid "{} minute ago"
 msgid_plural "{} minutes ago"
