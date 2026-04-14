@@ -109,11 +109,29 @@ class FontWeight(StrEnum):
   ROMAN = "Inter-Regular.fnt"
   DISPLAY = "Inter-Bold.fnt"
 
+  # Korean fonts
+  KR_REGULAR = "NotoSansKR-Regular.fnt"
+  KR_MEDIUM = "NotoSansKR-Medium.fnt"
+  KR_BOLD = "NotoSansKR-Bold.fnt"
+  KR_SEMI_BOLD = "NotoSansKR-SemiBold.fnt"
+
+
+KOREAN_FONT_MAP: dict[str, str] = {
+  "Inter-Regular.fnt": FontWeight.KR_REGULAR,
+  "Inter-Medium.fnt": FontWeight.KR_MEDIUM,
+  "Inter-Bold.fnt": FontWeight.KR_BOLD,
+  "Inter-SemiBold.fnt": FontWeight.KR_SEMI_BOLD,
+}
+
 
 def font_fallback(font: rl.Font) -> rl.Font:
-  """Fall back to unifont for languages that require it."""
+  """Fall back to unifont or a custom language font when required."""
   if multilang.requires_unifont():
     return gui_app.font(FontWeight.UNIFONT)
+  if multilang.requires_custom_font():
+    weight = gui_app.font_weight_for(font)
+    kr_weight = KOREAN_FONT_MAP.get(weight, FontWeight.KR_REGULAR)
+    return gui_app.font(kr_weight)
   return font
 
 
@@ -687,15 +705,22 @@ class GuiApplication(GuiApplicationExt):
     return self._height
 
   def _load_fonts(self):
+    self._font_id_to_weight: dict[int, str] = {}
     for font_weight_file in FontWeight:
       with as_file(FONT_DIR) as fspath:
         fnt_path = fspath / font_weight_file
         font = rl.load_font(fnt_path.as_posix())
-        if font_weight_file != FontWeight.UNIFONT:
+        if font_weight_file not in (FontWeight.UNIFONT, FontWeight.KR_REGULAR, FontWeight.KR_MEDIUM,
+                                    FontWeight.KR_BOLD, FontWeight.KR_SEMI_BOLD):
           rl.gen_texture_mipmaps(font.texture)
           rl.set_texture_filter(font.texture, rl.TextureFilter.TEXTURE_FILTER_TRILINEAR)
         self._fonts[font_weight_file] = font
+        self._font_id_to_weight[font.texture.id] = font_weight_file
     rl.gui_set_font(self._fonts[FontWeight.NORMAL])
+
+  def font_weight_for(self, font: rl.Font) -> str:
+    """Return the FontWeight string for the given loaded font, or NORMAL as fallback."""
+    return self._font_id_to_weight.get(font.texture.id, FontWeight.NORMAL)
 
   def _set_styles(self):
     rl.gui_set_style(rl.GuiControl.DEFAULT, rl.GuiControlProperty.BORDER_WIDTH, 0)

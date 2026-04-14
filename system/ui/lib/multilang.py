@@ -19,8 +19,11 @@ UNIFONT_LANGUAGES = [
   "th",
   "zh-CHT",
   "zh-CHS",
-  "ko",
   "ja",
+]
+
+CUSTOM_FONT_LANGUAGES = [
+  "ko",
 ]
 
 # Plural form selectors for supported languages
@@ -164,6 +167,10 @@ class Multilang:
   def requires_unifont(self) -> bool:
     """Certain languages require unifont to render their glyphs."""
     return self._language in UNIFONT_LANGUAGES
+
+  def requires_custom_font(self) -> bool:
+    """Certain languages use a dedicated custom font instead of Inter or unifont."""
+    return self._language in CUSTOM_FONT_LANGUAGES
 
   def setup(self):
     try:
