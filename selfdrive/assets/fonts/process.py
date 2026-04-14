@@ -11,7 +11,11 @@ LANGUAGES_FILE = TRANSLATIONS_DIR / "languages.json"
 
 GLYPH_PADDING = 6
 EXTRA_CHARS = "–‑✓×°§•X⚙✕◀▶✔⌫⇧␣○●↳çêüñ–‑✓×°§•€£¥"
-UNIFONT_LANGUAGES = {"th", "zh-CHT", "zh-CHS", "ko", "ja"}
+UNIFONT_LANGUAGES = {"th", "zh-CHT", "zh-CHS", "ja"}
+CUSTOM_FONT_LANGUAGES = {"ko"}
+
+# 한국어 등 커스텀 언어 코드포인트로 처리할 폰트 이름 prefix 목록
+CUSTOM_FONT_PREFIXES = {"NotoSansKR"}
 
 
 def _languages():
@@ -24,6 +28,7 @@ def _languages():
 def _char_sets():
   base = set(map(chr, range(32, 127))) | set(EXTRA_CHARS)
   unifont = set(base)
+  custom = set(base)
 
   for language, code in _languages().items():
     unifont.update(language)
@@ -32,9 +37,14 @@ def _char_sets():
       chars = set(po_path.read_text(encoding="utf-8"))
     except FileNotFoundError:
       continue
-    (unifont if code in UNIFONT_LANGUAGES else base).update(chars)
+    if code in UNIFONT_LANGUAGES:
+      unifont.update(chars)
+    elif code in CUSTOM_FONT_LANGUAGES:
+      custom.update(chars)
+    else:
+      base.update(chars)
 
-  return tuple(sorted(ord(c) for c in base)), tuple(sorted(ord(c) for c in unifont))
+  return tuple(sorted(ord(c) for c in base)), tuple(sorted(ord(c) for c in unifont)), tuple(sorted(ord(c) for c in custom))
 
 
 def _glyph_metrics(glyphs, rects, codepoints):
@@ -118,12 +128,17 @@ def _process_font(font_path: Path, codepoints: tuple[int, ...]):
 
 
 def main():
-  base_cp, unifont_cp = _char_sets()
+  base_cp, unifont_cp, custom_cp = _char_sets()
   fonts = sorted(FONT_DIR.glob("*.ttf")) + sorted(FONT_DIR.glob("*.otf"))
   for font in fonts:
     if "emoji" in font.name.lower():
       continue
-    glyphs = unifont_cp if font.stem.lower().startswith("unifont") else base_cp
+    if font.stem.lower().startswith("unifont"):
+      glyphs = unifont_cp
+    elif any(font.stem.startswith(prefix) for prefix in CUSTOM_FONT_PREFIXES):
+      glyphs = custom_cp
+    else:
+      glyphs = base_cp
     _process_font(font, glyphs)
   return 0
 
